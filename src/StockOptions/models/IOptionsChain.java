@@ -1,3 +1,7 @@
+package StockOptions.models;
+
+import StockOptions.models.OptionChain;
+
 public interface IOptionsChain {
-    OptionChain GetOption(string symbol);
+    OptionChain GetOption(String symbol);
 }
