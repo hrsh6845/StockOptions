@@ -7,7 +7,7 @@ import org.junit.Test;
 public class OptionTest {
     @Test
 
-    public void test1(){
+    public void checkOptionSymbol(){
         MarketDataApi marketDataApi = new MarketDataApi();
 
         Assert.assertEquals("AAPL", marketDataApi.Option);
